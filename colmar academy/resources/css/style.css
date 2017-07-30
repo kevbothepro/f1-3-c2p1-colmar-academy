@@ -1,0 +1,62 @@
+.header{
+	display: inline-block;
+	position: static;
+	height: 64px;
+	width: auto;
+	background-color: white;
+	font-family: Helvetica;
+	justify-content: horizontal;
+	margin: 24px;
+}
+
+.header h3{
+	font-size: 36px;
+	position: absolute;
+	top: 8px;
+}
+
+.header ul{
+	position: absolute;
+	right: 1px;
+	top: 12px;
+	list-style-type: none;
+	content: horizontal;
+
+}
+
+.header li{
+	margin-right: 16px;
+	margin-left: 16px;
+}
+.banner{
+	background-color: gray;
+}
+.banner img{
+	height: 360px;
+	width: 480px;
+}
+
+.banner h1 {
+	position: absolute;
+	right: 180px;
+	top: 200px;
+	font-family: helvetica;
+
+}
+
+.banner h2{
+	position: absolute;
+	right: 420px;
+	top: 240px;
+	font-family: helvetica;
+	font-size: 18px;
+}
+
+#button{
+	padding: 8px;
+	position: absolute;
+	top: 260px;
+	right: 360px;
+	background-color: darkgrey;
+	font-family: Arial;
+}
